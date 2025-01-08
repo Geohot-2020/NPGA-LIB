@@ -1,0 +1,52 @@
+﻿生成启动时间为 2025/1/8 14:45:49。
+     1>项目“E:\myPrj\NPGA\npgaDemo\npgaDemo\npgaDemo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\npgaDemo.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /I"C:\wireshark-win32-libs-1.8\gtk+-bundle_2.24.14-1.1_win32ws\include\glib-2.0" /I"C:\wireshark-win32-libs-1.8\gtk+-bundle_2.24.14-1.1_win32ws\lib\glib-2.0\include" /I"D:\wireshark182DEV\wireshark-1.8.6" /I"C:\wireshark-win32-libs-1.8\WpdPack\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D HAVE_REMOTE /D WPCAP /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt npga.cpp
+         npga.cpp
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(119): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(127): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(275): warning C4244: “=”: 从“const time_t”转换到“long”，可能丢失数据
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(316): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(326): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(339): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(358): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(373): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(435): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(525): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(548): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(549): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(588): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(612): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(619): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\wireshark-win32-libs-1.8\gtk+-bundle_2.24.14-1.1_win32ws\lib" /LIBPATH:"C:\wireshark-win32-libs-1.8\WpdPack\Lib" "glib-2.0.lib" wpcap.lib ws2_32.lib Packet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libnpga.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.lib" /MACHINE:X86 /DLL Debug\main.obj
+         Debug\npga.obj
+         Debug\nshark.obj
+         Debug\ntap.obj
+         npgaDemo.vcxproj -> E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll.manifest" /manifest Debug\libnpga.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\npgaDemo.unsuccessfulbuild”。
+         正在对“Debug\npgaDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\myPrj\NPGA\npgaDemo\npgaDemo\npgaDemo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.04
