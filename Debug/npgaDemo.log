@@ -1,4 +1,4 @@
-﻿生成启动时间为 2025/1/8 14:45:49。
+﻿生成启动时间为 2025/1/14 9:43:46。
      1>项目“E:\myPrj\NPGA\npgaDemo\npgaDemo\npgaDemo.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在对“Debug\npgaDemo.unsuccessfulbuild”执行 Touch 任务。
@@ -16,29 +16,56 @@
                  d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
      1>e:\myprj\npga\npgademo\npgademo\npga.cpp(339): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(358): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(344): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(353): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(373): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(363): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(435): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(372): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(392): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(398): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(416): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(431): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(493): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(525): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(583): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(548): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(606): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(549): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(607): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(588): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(646): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\vs2010\vc\include\string.h(238) : 参见“strdup”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(612): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(670): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\vs2010\vc\include\time.inl(112) : 参见“localtime”的声明
-     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(619): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>e:\myprj\npga\npgademo\npgademo\npga.cpp(677): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\vs2010\vc\include\stdio.h(363) : 参见“_snprintf”的声明
        Link:
          d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\wireshark-win32-libs-1.8\gtk+-bundle_2.24.14-1.1_win32ws\lib" /LIBPATH:"C:\wireshark-win32-libs-1.8\WpdPack\Lib" "glib-2.0.lib" wpcap.lib ws2_32.lib Packet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libnpga.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.lib" /MACHINE:X86 /DLL Debug\main.obj
          Debug\npga.obj
          Debug\nshark.obj
          Debug\ntap.obj
+            正在创建库 E:\myPrj\NPGA\npgaDemo\Debug\libnpga.lib 和对象 E:\myPrj\NPGA\npgaDemo\Debug\libnpga.exp
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_start 在函数 "unsigned long __stdcall capture_thread_func(void *)" (?capture_thread_func@@YGKPAX@Z) 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_stop 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_resume 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_pause 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_setUDPCallBack 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_setCallBack 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_getFilter 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_setFilter 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_getPcapInterval 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_setPcapInterval 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_delete 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_setPcapPrefix 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_new 在函数 _main 中导入
+     1>main.obj : warning LNK4217: 本地定义的符号 _npga_get_devs 在函数 _main 中导入
          npgaDemo.vcxproj -> E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\myPrj\NPGA\npgaDemo\Debug\libnpga.dll.manifest" /manifest Debug\libnpga.dll.intermediate.manifest
@@ -49,4 +76,4 @@
 
 生成成功。
 
-已用时间 00:00:01.04
+已用时间 00:00:00.92

@@ -339,9 +339,67 @@ char *npga_get_devs() {
                   d->description ? d->description : "No description available");
   }
 
+  // 添加分隔线
+  offset += _snprintf(result + offset, result_size - offset, 
+      "\n=== Rate Limit Configuration ===\n");
+
+  // 从配置文件读取并添加到result
+  FILE *fp;
+  char line[256];
+  unsigned int ip1, ip2, ip3, ip4;
+  uint16_t length;
+  int rate, truncate_len;
+  
+  fp = fopen("config/npga-filter.ini", "r");
+  if (fp != NULL) {
+    while (fgets(line, sizeof(line), fp)) {
+        // 跳过注释行和空行
+        if (line[0] == '#' || line[0] == '\n') {
+            continue;
+        }
+        
+        // 解析每行的配置
+        if (sscanf(line, "%u.%u.%u.%u %hu %d %d", 
+                    &ip1, &ip2, &ip3, &ip4, &length, &rate, &truncate_len) == 7) {
+            
+            // 计算需要的空间并确保有足够空间
+            size_t needed_size = _snprintf(NULL, 0,
+                "Source IP: %u.%u.%u.%u\n"
+                "Packet Length: %u bytes\n"
+                "Rate Limit: %d packets/sec\n"
+                "Truncate Length: %d bytes\n\n",
+                ip1, ip2, ip3, ip4,
+                length, rate, truncate_len) + 1;
+
+            if (offset + needed_size > result_size) {
+                result_size *= 2;
+                result = (char *)realloc(result, result_size);
+                if (result == NULL) {
+                    fprintf(stderr, "Memory allocation error\n");
+                    pcap_freealldevs(alldevs);
+                    fclose(fp);
+                    return NULL;
+                }
+            }
+
+            // 添加到结果字符串
+            offset += _snprintf(result + offset, result_size - offset,
+                "Source IP: %u.%u.%u.%u\n"
+                "Packet Length: %u bytes\n"
+                "Rate Limit: %d packets/sec\n"
+                "Truncate Length: %d bytes\n\n",
+                ip1, ip2, ip3, ip4,
+                length, rate, truncate_len);
+        }
+    }
+    fclose(fp);
+  } else {
+      offset += _snprintf(result + offset, result_size - offset,
+          "Warning: Cannot open config/npga-filter.ini\n");
+  }
+
   // 释放分配的资源
   pcap_freealldevs(alldevs);
-
   return result;
 }
 
